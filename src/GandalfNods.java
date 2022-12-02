@@ -25,7 +25,6 @@ public class GandalfNods {
         System.out.println("In the Video Gandalf Sax Guy\n" +
                 "https://www.youtube.com/watch?v=Sagg08DrO5U\n" +
                 "Gandalf has nod his head " +  df.format(amount) + " times since " + startDate);
-        System.out.println("hello");
     }
 
     public static void main(String[] args) {
