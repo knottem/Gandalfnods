@@ -23,7 +23,7 @@ public class GandalfNods {
         long seconds = ChronoUnit.SECONDS.between(start,currentTime);
         long amount = (long) (seconds*2.1);
         System.out.println("In the Video Gandalf Sax Guy\n" +
-                "https://www.youtube.com/watch?v=G1IbRujko-A\n" +
+                "https://www.youtube.com/watch?v=Sagg08DrO5U\n" +
                 "Gandalf has nod his head " +  df.format(amount) + " times since " + startDate);
     }
 
