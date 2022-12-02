@@ -22,7 +22,9 @@ public class GandalfNods {
         startDate = LocalDate.from(start);
         long seconds = ChronoUnit.SECONDS.between(start,currentTime);
         long amount = (long) (seconds*2.1);
-        System.out.println("In the Video Gandalf Sax Guy, Gandalf has nod his head " +  df.format(amount) + " times since " + startDate);
+        System.out.println("In the Video Gandalf Sax Guy\n" +
+                "https://www.youtube.com/watch?v=G1IbRujko-A\n" +
+                "Gandalf has nod his head " +  df.format(amount) + " times since " + startDate);
     }
 
     public static void main(String[] args) {
