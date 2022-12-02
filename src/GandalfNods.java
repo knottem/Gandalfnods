@@ -15,7 +15,7 @@ public class GandalfNods {
 
     LocalDateTime start = LocalDateTime.of(2012,9,12,0,0,0);
     LocalDate startDate;
-    DecimalFormat df = new DecimalFormat("###,###,###");
+    DecimalFormat df = new DecimalFormat("###,###,###,###");
 
     void calculateTotalNods(){
         LocalDateTime currentTime = LocalDateTime.now();
