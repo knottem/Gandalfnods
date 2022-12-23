@@ -17,7 +17,7 @@ public class GandalfNods {
     LocalDate startDate;
     DecimalFormat df = new DecimalFormat("###,###,###,###");
 
-    void calculateTotalNods(){
+    private void calculateTotalNods(){
         LocalDateTime currentTime = LocalDateTime.now();
         startDate = LocalDate.from(start);
         long seconds = ChronoUnit.SECONDS.between(start,currentTime);
